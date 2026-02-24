@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, Instagram, Linkedin, Twitter } from 'lucide-react';
 import { Button } from './ui/Button';
-import { Input, Textarea } from './ui/Input';
+import { Input } from './ui/input';
+import { Textarea } from './ui/textarea';
 import { toast, Toaster } from 'sonner';
 
 export const Contact = () => {
